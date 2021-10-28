@@ -1,5 +1,7 @@
 library(tidyverse)
 library(readxl)
+library(flexdashboard)
+library(tmap)
 
 cadre_harmonise_caf_ipc <- read_excel("cadre_harmonise_caf_ipc.xlsx")
 
